@@ -1,13 +1,13 @@
 schema_version: 1
 context:
-  version: 1.5.0.1
+  version: 1.5.0.2
   python_min: '3.11'
 package:
   name: spacr
   version: ${{ version }}
 source:
   url: https://pypi.org/packages/source/s/spacr/spacr-${{ version }}.tar.gz
-  sha256: 99ed9ac2082f41b86f1819823973721aad75679e0095328b669c5621b795ba70
+  sha256: 6fd70dee143b2f594c9769dda3502f0a58a8c4845b7f37140c71a9ad262d0cbe
 build:
   number: 0
   noarch: python
