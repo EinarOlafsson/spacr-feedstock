@@ -1,6 +1,7 @@
 schema_version: 1
 context:
   version: 1.4.9.9
+  python_min: '3.11'
 package:
   name: spacr
   version: ${{ version }}
